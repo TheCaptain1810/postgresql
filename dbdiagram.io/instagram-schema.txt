@@ -4,6 +4,7 @@ Table users {
   updated_at TIMESTAMP 
   username VARCHAR(30)
   avatar VARCHAR(200)
+  bio VARCHAR(400)
   phone VARCHAR(25)
   email VARCHAR(50)
   password VARCHAR(50)
