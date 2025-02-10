@@ -11,6 +11,9 @@ Table posts {
   updated_at TIMESTAMP 
   url VARCHAR(200)
   user_id INTEGER [ref: > users.id]
+  caption VARCHAR(300)
+  lat REAL 
+  long REAL
 }
 
 Table comments {
